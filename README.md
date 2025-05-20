@@ -89,7 +89,7 @@ AS
 GO
 ```
 
-## 个人函数示例：
+## 个人函数示例，按需要自行修改：
 
 ```tsql
 CREATE FUNCTION mcFn_Base64StrDecode
