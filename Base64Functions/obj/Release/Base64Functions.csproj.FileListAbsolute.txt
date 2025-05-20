@@ -1,0 +1,6 @@
+D:\Projects\MSSQL-CLR\Base64Functions\bin\Release\Base64Functions.dll
+D:\Projects\MSSQL-CLR\Base64Functions\bin\Release\Base64Functions.pdb
+D:\Projects\MSSQL-CLR\Base64Functions\obj\Release\Base64Functions.csproj.AssemblyReference.cache
+D:\Projects\MSSQL-CLR\Base64Functions\obj\Release\Base64Functions.csproj.CoreCompileInputs.cache
+D:\Projects\MSSQL-CLR\Base64Functions\obj\Release\Base64Functions.dll
+D:\Projects\MSSQL-CLR\Base64Functions\obj\Release\Base64Functions.pdb
