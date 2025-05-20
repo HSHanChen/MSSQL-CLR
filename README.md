@@ -1,6 +1,6 @@
 # SQLSERVER 注册DLL文件
 
-> 本文使用的为SQL2022版本，2017以上的都可以使用
+> 本文使用的为SQL2022版本，2017以上的都可以使用，但是需要自行测试
 
 ## 注册DLL
 
@@ -63,7 +63,10 @@ RECONFIGURE;
 ## 如何验证注册成功
 `SELECT * FROM sys.trusted_assemblies;`
 
-## CLR函数
+## 创建CLR函数
+
+注意：此函数没法加T-SQL的处理，需要额外创建函数来调用，再进行处理
+
 ```tsql
 -- 编码
 CREATE FUNCTION dbo.mcFn_EncodeBase64
@@ -86,7 +89,8 @@ AS
 GO
 ```
 
-## MCHR函数
+## 个人函数示例：
+
 ```tsql
 CREATE FUNCTION mcFn_Base64StrDecode
 (
